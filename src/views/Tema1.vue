@@ -45,7 +45,6 @@
           img(src="@/assets/template/tema-1-3.png", alt="Texto que describa la imagen")
     .row.mt-5
       .col-10.offset-1
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 3.] <em>Componentes electrónicos</em>
     .tabla-a.color-acento-contenido.mt-5 
       table
         thead
@@ -74,7 +73,7 @@
     p.mt-5 Todos los componentes electrónicos tienen asociado un símbolo o dibujo, lo que permite representar gráficamente a los circuitos; la simbología electrónica cobra vital relevancia cuando de analizar circuitos se trata, esto se debe a que en términos generales, la geometría del dibujo obedece en mayor o gran medida a la función básica del componente. En la siguiente figura se puede observar la simbología de los componentes electrónicos más utilizados en circuitos.
     .row.mt-5
       .col-10.offset-1
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 4.] <em>Simbología electrónica</em>
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 3.] <em>Simbología electrónica</em>
     .row.mt-4
       table.tabla-borde-azul
         thead
@@ -262,7 +261,7 @@
           img(src="@/assets/template/tema-1-7.png", alt="Texto que describa la imagen")
     .row.mt-4
       .col-10.offset-1
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 5.] <em>Encapsulados más empleados</em>
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 4.] <em>Encapsulados más empleados</em>
     .tabla-a.color-acento-contenido.mt-5 
       table
         thead
@@ -291,7 +290,7 @@
     p.mt-5 En los procesos de fabricación de componentes y circuitos electrónicos se emplean diferentes materiales, los cuales aportan las características eléctricas y el comportamiento funcional. 
     .row.mt-5
       .col-10.offset-1
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 6.] <em>Materiales</em>
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 5.] <em>Materiales</em>
         ImagenInfografica.color-acento-botones.mt-5.intro
           template(v-slot:imagen)
             figure
@@ -319,15 +318,15 @@
     .row.mt-5
       .col-12.col-lg-8
         p Cada componente electrónico cumple una función determinada dentro de un circuito electrónico, es así que una resistencia disipa energía en forma de calor y se opone al paso de la corriente eléctrica o como un amplificador operacional aumenta la amplitud de una señal de voltaje y sirve como acondicionador de señal; pero para que el componente electrónico, sea el que sea, cumpla con su función, debe obedecer a unos parámetros establecidos por el fabricante durante su proceso de construcción y son estos parámetros y características las que establecen dichas funciones. 
-        p.mt-3 Es por esta razón que en el mercado se encuentra una innumerable cantidad de componentes electrónicos, cada uno con sus características y parámetros eléctricos específicos que se ajustan a las necesidades particulares de cada diseño electrónico. Pero entonces, cómo saber: ¿cuáles son las características que requiere mi componente electrónico para que funcione de manera adecuada en una aplicación electrónica determinada? La respuesta se encuentra en las hojas de datos o <i>datasheets</i>, que son manuales elaborados por el fabricante con la información técnica y funcional del componente electrónico, ver figura 6.
+        p.mt-3 Es por esta razón que en el mercado se encuentra una innumerable cantidad de componentes electrónicos, cada uno con sus características y parámetros eléctricos específicos que se ajustan a las necesidades particulares de cada diseño electrónico. Pero entonces, cómo saber: ¿cuáles son las características que requiere mi componente electrónico para que funcione de manera adecuada en una aplicación electrónica determinada? La respuesta se encuentra en las hojas de datos o <i>datasheets</i>, que son manuales elaborados por el fabricante con la información técnica y funcional del componente electrónico, ver figura 7.
       .col-6.col-lg-4
         figure
           img(src="@/assets/template/tema-1-14.png", alt="Texto que describa la imagen")
     .row.mt-5
       .col-10.offset-1
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 7.] <em>Hojas de datos del amplificador</em>
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 6.] <em>Hojas de datos del amplificador</em>
         figure.mt-4
-          img(src="@/assets/template/tema-1-15.png", alt="Texto que describa la imagen")
+          img(src="@/assets/template/tema-1-15.svg", alt="Texto que describa la imagen")
           figcaption.mt3 Referencia Nota. Texas Instruments. (2015). 
     p.mt-5 Ejemplo de una hoja de datos perteneciente a un amplificador operacional, donde se resaltan algunos de los parámetros eléctricos que destacan al componente. Para consultar las hojas de datos de un componente electrónico solo se requiere conocer el nombre o referencia del componente para así consultarlo directamente en internet.
     .row.mt-4
