@@ -81,34 +81,39 @@
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'conectorJ') }">Conector (J)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'fusibleF') }">Fusible (F)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'bombillaLmp') }">Bombilla (LMP)</th>
+        tbody
+          tr
+            <td class="py-3" @mouseover="chBg('conectorJ')" @mouseleave="chBgTransparent()">  
+              figure
+                img(src="@/assets/template/tema-1-18.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+            <td class="py-3" @mouseover="chBg('fusibleF')" @mouseleave="chBgTransparent()">  
+              figure
+                img(src="@/assets/template/tema-1-19.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+            <td class="py-3" @mouseover="chBg('bombillaLmp')" @mouseleave="chBgTransparent()">  
+              figure
+                img(src="@/assets/template/tema-1-20.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+      table.tabla-borde-azul.mt-3
+        thead
+          tr.text-center
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'condensadorVar') }">Condensador variable (C)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'bobinaFija') }">Bobina fija (L)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'bobinaVar') }">Bobina variable (L)</th>
         tbody
           tr
-            <td class="py-3" @mouseover="chBg('conectorJ')" @mouseleave="chBgTransparent()">  
-              figure
-                img(src="@/assets/template/tema-1-18.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
-            <td class="py-3" @mouseover="chBg('fusibleF')" @mouseleave="chBgTransparent()">  
-              figure
-                img(src="@/assets/template/tema-1-19.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
-            <td class="py-3" @mouseover="chBg('bombillaLmp')" @mouseleave="chBgTransparent()">  
-              figure
-                img(src="@/assets/template/tema-1-20.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
             <td class="py-3" @mouseover="chBg('condensadorVar')" @mouseleave="chBgTransparent()">  
               figure
-                img(src="@/assets/template/tema-1-21.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-21.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
             <td class="py-3" @mouseover="chBg('bobinaFija')" @mouseleave="chBgTransparent()">  
               figure
-                img(src="@/assets/template/tema-1-22.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-22.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
             <td class="py-3" @mouseover="chBg('bobinaVar')" @mouseleave="chBgTransparent()">  
               figure
-                img(src="@/assets/template/tema-1-23.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-23.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
       table.tabla-borde-azul.mt-3
         thead
@@ -116,34 +121,39 @@
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'pilaB') }">Pila (B)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'bateriaB') }">Bateria (B)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'resitenciaFija') }">Resistencia fija (R)</th>
+        tbody
+          tr
+            <td class="py-3" @mouseover="chBg('pilaB')" @mouseleave="chBgTransparent()">  
+              figure
+                img(src="@/assets/template/tema-1-24.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+            <td class="py-3" @mouseover="chBg('bateriaB')" @mouseleave="chBgTransparent()">  
+              figure
+                img(src="@/assets/template/tema-1-25.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+            <td class="py-3" @mouseover="chBg('resitenciaFija')" @mouseleave="chBgTransparent()">  
+              figure
+                img(src="@/assets/template/tema-1-26.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+      table.tabla-borde-azul.mt-3
+        thead
+          tr.text-center
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'transNuclHierr') }">Transformador nucleo De hierro (T)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'diodoRect') }">Diodo rectificador (D)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'puenteRect') }">Puente rectificador (BR)</th>
         tbody
           tr
-            <td class="py-3" @mouseover="chBg('pilaB')" @mouseleave="chBgTransparent()">  
-              figure
-                img(src="@/assets/template/tema-1-24.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
-            <td class="py-3" @mouseover="chBg('bateriaB')" @mouseleave="chBgTransparent()">  
-              figure
-                img(src="@/assets/template/tema-1-25.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
-            <td class="py-3" @mouseover="chBg('resitenciaFija')" @mouseleave="chBgTransparent()">  
-              figure
-                img(src="@/assets/template/tema-1-26.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
             <td class="py-3" @mouseover="chBg('transNuclHierr')" @mouseleave="chBgTransparent()">  
               figure
-                img(src="@/assets/template/tema-1-27.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-27.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
             <td class="py-3" @mouseover="chBg('diodoRect')" @mouseleave="chBgTransparent()">  
               figure
-                img(src="@/assets/template/tema-1-28.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-28.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
             <td class="py-3" @mouseover="chBg('puenteRect')" @mouseleave="chBgTransparent()">  
               figure
-                img(src="@/assets/template/tema-1-29.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-29.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
       table.tabla-borde-azul.mt-3
         thead
@@ -151,34 +161,39 @@
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'potencioP') }">Potenciómetro (P)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'fotoreciLdr') }">Fotorecistencia (LDR)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'varistorVdr') }">Varistor (VDR)</th>
+        tbody
+          tr
+            <td class="py-3" @mouseover="chBg('potencioP')" @mouseleave="chBgTransparent()">  
+              figure
+                img(src="@/assets/template/tema-1-30.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+            <td class="py-3" @mouseover="chBg('fotoreciLdr')" @mouseleave="chBgTransparent()">  
+              figure
+                img(src="@/assets/template/tema-1-31.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+            <td class="py-3" @mouseover="chBg('varistorVdr')" @mouseleave="chBgTransparent()">  
+              figure
+                img(src="@/assets/template/tema-1-32.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+      table.tabla-borde-azul.mt-3
+        thead
+          tr.text-center
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'diodoLed') }">Diodo LED (LED)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'diodoZener') }">Diodo zener (D)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'transistorNpn') }">Transistor NPN (Q)</th>
         tbody
           tr
-            <td class="py-3" @mouseover="chBg('potencioP')" @mouseleave="chBgTransparent()">  
-              figure
-                img(src="@/assets/template/tema-1-30.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
-            <td class="py-3" @mouseover="chBg('fotoreciLdr')" @mouseleave="chBgTransparent()">  
-              figure
-                img(src="@/assets/template/tema-1-31.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
-            <td class="py-3" @mouseover="chBg('varistorVdr')" @mouseleave="chBgTransparent()">  
-              figure
-                img(src="@/assets/template/tema-1-32.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
             <td class="py-3" @mouseover="chBg('diodoLed')" @mouseleave="chBgTransparent()">  
               figure
-                img(src="@/assets/template/tema-1-33.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-33.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
             <td class="py-3" @mouseover="chBg('diodoZener')" @mouseleave="chBgTransparent()">  
               figure
-                img(src="@/assets/template/tema-1-34.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-34.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
             <td class="py-3" @mouseover="chBg('transistorNpn')" @mouseleave="chBgTransparent()">  
               figure
-                img(src="@/assets/template/tema-1-35.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-35.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
       table.tabla-borde-azul.mt-3
         thead
@@ -186,34 +201,39 @@
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'termistor') }">Termistor</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'condensadorNoPol') }">Condensador fijo no polarizado (C)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'condensadorPol') }">Condensador fijo polarizado (C)</th>
+        tbody
+          tr
+            <td class="py-3" @mouseover="chBg('termistor')" @mouseleave="chBgTransparent()">  
+              figure
+                img(src="@/assets/template/tema-1-36.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+            <td class="py-3" @mouseover="chBg('condensadorNoPol')" @mouseleave="chBgTransparent()"> 
+              figure
+                img(src="@/assets/template/tema-1-37.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+            <td class="py-3" @mouseover="chBg('condensadorPol')" @mouseleave="chBgTransparent()"> 
+              figure
+                img(src="@/assets/template/tema-1-38.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+      table.tabla-borde-azul.mt-3
+        thead
+          tr.text-center
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'transistorPnp') }">Transistor PNP (Q)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'transistorDarling') }">Transistor darlington (Q)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'transistorScr') }">Transistor (SCR)</th>
         tbody
           tr
-            <td class="py-3" @mouseover="chBg('termistor')" @mouseleave="chBgTransparent()">  
-              figure
-                img(src="@/assets/template/tema-1-36.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
-            <td class="py-3" @mouseover="chBg('condensadorNoPol')" @mouseleave="chBgTransparent()"> 
-              figure
-                img(src="@/assets/template/tema-1-37.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
-            <td class="py-3" @mouseover="chBg('condensadorPol')" @mouseleave="chBgTransparent()"> 
-              figure
-                img(src="@/assets/template/tema-1-38.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
             <td class="py-3" @mouseover="chBg('transistorPnp')" @mouseleave="chBgTransparent()"> 
               figure
-                img(src="@/assets/template/tema-1-39.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-39.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
             <td class="py-3" @mouseover="chBg('transistorDarling')" @mouseleave="chBgTransparent()"> 
               figure
-                img(src="@/assets/template/tema-1-40.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-40.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
             <td class="py-3" @mouseover="chBg('transistorScr')" @mouseleave="chBgTransparent()"> 
               figure
-                img(src="@/assets/template/tema-1-41.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-41.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
       table.tabla-borde-azul.mt-3
         thead
@@ -221,34 +241,39 @@
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'triac') }">Triac (TR)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'circuitoIntegrado') }">Circuito integrado (IC)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'amplificador') }">Amplificador operacional (A)</th>
+        tbody
+          tr
+            <td class="py-3" @mouseover="chBg('triac')" @mouseleave="chBgTransparent()"> 
+              figure
+                img(src="@/assets/template/tema-1-42.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+            <td class="py-3" @mouseover="chBg('circuitoIntegrado')" @mouseleave="chBgTransparent()"> 
+              figure
+                img(src="@/assets/template/tema-1-43.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+            <td class="py-3" @mouseover="chBg('amplificador')" @mouseleave="chBgTransparent()"> 
+              figure
+                img(src="@/assets/template/tema-1-44.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
+            </td>
+      table.tabla-borde-azul.mt-3
+        thead
+          tr.text-center
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'altavoz') }">Altavoz  (SPK)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'motor') }">Motor (MOT)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'zumbador') }">Zumbador (BZ)</th>
         tbody
           tr
-            <td class="py-3" @mouseover="chBg('triac')" @mouseleave="chBgTransparent()"> 
-              figure
-                img(src="@/assets/template/tema-1-42.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
-            <td class="py-3" @mouseover="chBg('circuitoIntegrado')" @mouseleave="chBgTransparent()"> 
-              figure
-                img(src="@/assets/template/tema-1-43.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
-            <td class="py-3" @mouseover="chBg('amplificador')" @mouseleave="chBgTransparent()"> 
-              figure
-                img(src="@/assets/template/tema-1-44.png", alt="Texto que describa la imagen").w-75.margin-0-auto
-            </td>
             <td class="py-3" @mouseover="chBg('altavoz')" @mouseleave="chBgTransparent()"> 
               figure
-                img(src="@/assets/template/tema-1-45.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-45.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
             <td class="py-3" @mouseover="chBg('motor')" @mouseleave="chBgTransparent()"> 
               figure
-                img(src="@/assets/template/tema-1-46.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-46.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
             <td class="py-3" @mouseover="chBg('zumbador')" @mouseleave="chBgTransparent()"> 
               figure
-                img(src="@/assets/template/tema-1-47.png", alt="Texto que describa la imagen").w-75.margin-0-auto
+                img(src="@/assets/template/tema-1-47.svg", alt="Texto que describa la imagen").w-75.margin-0-auto
             </td>
     .titulo-segundo.mt-5
       #t_1_3.h2 1.3  Encapsulados
