@@ -326,16 +326,12 @@
             p.m-0 Para la fabricación de conductores eléctricos se suelen emplear metales como el cobre, la plata o el oro, los cuales gracias a su propiedad de conductividad y baja resistividad los hacen buenos materiales para transportar la corriente eléctrica. 
           .cajon.color-acento-botones(x="60%" y="99.5%").p-3             
             p.m-0 Por otro lado, el silicio o el germanio son elementos empleados en la construcción de semiconductores; el diodo, los transistores, los tiristores y los circuitos integrados son un claro ejemplo de semiconductores que han permitido la evolución de la electrónica.
+            .titulo-segundo.mt-5
     .titulo-segundo.mt-5
       #t_1_5.h2 1.5  Placa base
-    .row.mt-4
-      .col-8.offset-2
-        .row.borde-gris-noizq.rounded-20
-          .col-4.p-0
-            figure
-              img(src="@/assets/template/tema-1-12.png", alt="Texto que describa la imagen")
-          .col-8.py-4.px-4
-            p La placa base, denominada sustrato, es el material que servirá de soporte para los componentes y las conexiones eléctricas de un circuito. Se caracteriza por estar construida por materiales aislantes como baquelita, fibra de vidrio o resinas epóxicas reforzadas con fibra de vidrio llamadas FR4.
+    figure.mt-3
+      img(src="@/assets/template/tema-1-12.svg", alt="Texto que describa la imagen")
+    p.mt-5 La placa base, denominada sustrato, es el material que servirá de soporte para los componentes y las conexiones eléctricas de un circuito. Se caracteriza por estar construida por materiales aislantes como baquelita, fibra de vidrio o resinas epóxicas reforzadas con fibra de vidrio llamadas FR4.
     .titulo-segundo.mt-5
       #t_1_6.h2 1.6  Características y hojas de datos
     figure.mt-3
