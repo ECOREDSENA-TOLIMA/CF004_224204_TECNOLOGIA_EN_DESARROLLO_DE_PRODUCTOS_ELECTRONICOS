@@ -110,6 +110,11 @@ export default {
       },
       {
         icono: 'fas fa-download',
+        titulo: 'Descargar PDF',
+        download: 'downloads/CFA_4_224204.pdf',
+      },
+      {
+        icono: 'fas fa-download',
         titulo: 'Descargar material',
         download: 'downloads/material.zip',
       },
@@ -123,21 +128,21 @@ export default {
   complementario: [
     {
       tema: 'Componentes electrónicos y su simbología',
-      texto:
+      referencia:
         'Arboledas Brihuega, D. (2011). Electrónica básica: guía básica. Ediciones de la U.',
       tipo: 'Libro',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7120',
     },
     {
       tema: 'Planos esquemáticos',
-      texto:
+      referencia:
         'Ruiz Vázquez, T., y  Arbelaitz Gallego, O. (2004). Análisis Básico de circuitos eléctricos y electrónicos. Pearson Educación.',
       tipo: 'Libro',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=4552',
     },
     {
       tema: 'Materiales',
-      texto:
+      referencia:
         'Carmona Rubio, G. y  Díaz Corcobado, T. (2010). Electrónica aplicada. McGraw-Hill.',
       tipo: 'Libro',
       link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=4852',
