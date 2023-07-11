@@ -3,7 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p A continuación, se describe el tema principal del Componente formativo CF04 identificación de componentes electrónicos, donde se describe cada uno de ellos, el diseño eléctrico y electrónico dependiendo de las características y sus órdenes de trabajo. También se contemplan y desarrollan temas acerca de la conformación de los circuitos y su vital importancia e implementación en los diferentes procesos de fabricación y operación de los productos.
+    p.mb-5 A continuación, se describe el tema principal del componente formativo Identificación de componentes electrónicos, donde se describe cada uno de ellos, el diseño eléctrico y electrónico dependiendo de las características y sus órdenes de trabajo. También se contemplan y desarrollan temas acerca de la conformación de los circuitos y su vital importancia e implementación en los diferentes procesos de fabricación y operación de los productos.
 
     .row.justify-content-center
       .col-lg-12.mb-5

@@ -21,10 +21,10 @@
       .tarjeta.color-acento-botones--borde.p-4(titulo="Planos esquemáticos")
         h4 Planos esquemáticos
         p Los planos esquemáticos son representaciones gráficas de los circuitos electrónicos, esta representación se realiza a partir de los símbolos de los componentes electrónicos que formarán parte del circuito. En otras palabras, un plano esquemático es un dibujo elaborado a partir de la simbología de los componentes electrónicos que permiten su análisis e interpretación funcional.
-        p.mt-3 Las uniones eléctricas se representan con trazos de línea vertical y horizontal y se emplean etiquetas para nombrar los componentes electrónicos y sus consecutivos. En la figura 7 se puede observar un plano esquemático de un circuito para el control de velocidad de un motor.
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 7.] <em>Plano esquemático de un circuito para el control de velocidad de un motor</em>
+        p.mt-3 Las uniones eléctricas se representan con trazos de línea vertical y horizontal y se emplean etiquetas para nombrar los componentes electrónicos y sus consecutivos. En la figura 8 se puede observar un plano esquemático de un circuito para el control de velocidad de un motor.
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 8.] <em>Plano esquemático de un circuito para el control de velocidad de un motor</em>
         figure.mt-3
-          img(src="@/assets/template/tema-2-3.svg", alt="Texto que describa la imagen")
+          img(src="@/assets/template/tema-2-3.svg", alt="La figura 8 contiene un plano esquemático de un circuito para el control de velocidad de un motor.")
           figcaption.mt-3 Referencia Nota. Arboledas Brihuega, D. (2011). 
       .tarjeta.color-acento-botones--borde.p-4(titulo="Tipos")
         h4 Tipos
@@ -32,10 +32,10 @@
         p.mt-3 Los planos esquemáticos que representan cada uno de los circuitos empleados para la fabricación de un producto electrónico se clasifican según el área o ciencia en el que se utilice. Es decir que un equipo biomédico tendrá un plano o planos esquemáticos que sirvan para analizar su electrónica; de igual manera para los equipos de audio y video o para los equipos de telecomunicaciones. Esta clasificación de los planos esquemáticos por áreas o ciencias, facilitan su estudio y permiten que la comprensión técnica y la capacitación del personal que los repara se especialice por la rama o ciencia que le apliquen.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Características")
         h4 Características
-        p Los planos esquemáticos se caracterizan por ser la antesala a la elaboración del circuito impreso en las fases de diseño electrónico; la información presentada de manera gráfica permite conocer al detalle el funcionamiento del circuito físico de cualquier producto electrónico. En procesos de diagnóstico y reparación de circuitos son muy útiles porque permiten establecer puntos de verificación y validación de funcionamiento así mismo establecen puntos para la medición de variables y parámetros eléctricos.
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 8.] <em>Plano esquemático de un circuito para el control de motores</em>
+        p Los planos esquemáticos se caracterizan por ser la antesala a la elaboración del circuito impreso en las fases de diseño electrónico; la información presentada de manera gráfica permite conocer al detalle el funcionamiento, del circuito físico de cualquier producto electrónico. En procesos de diagnóstico y reparación de circuitos son muy útiles porque permiten establecer puntos de verificación y validación de funcionamiento así mismo establecen puntos para la medición de variables y parámetros eléctricos.
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 9.] <em>Plano esquemático de un circuito para el control de motores</em>
         figure
-          img(src="@/assets/template/tema-2-9.svg", alt="Texto que describa la imagen") 
+          img(src="@/assets/template/tema-2-9.svg", alt="La figura 9 contiene una imagen de un plano esquemático de un circuito para el control de motores.") 
           figcaption.mt-3 Referencia Nota. Roux, J. (2011)
       .tarjeta.color-acento-botones--borde.p-4(titulo="Especificaciones")
         h4 Especificaciones
@@ -43,10 +43,10 @@
         p.mt-3 Es decir que la finalidad prevista del producto electrónico determina las especificaciones del circuito y por ende la elaboración del plano esquemático.
       .tarjeta.color-acento-botones--borde.p-4(titulo="Lectura de planos electrónicos")
         h4 Lectura de planos electrónicos
-        p Las claves para realizar lectura de planos esquemáticos radica en identificar la simbología y la nomenclatura empleada en su elaboración, al ser un gráfico representativo de los circuitos electrónicos los recursos empleados para su identificación son muy visuales, por ejemplo, en el plano esquemático de la figura 7 se pueden observar los consecutivos de cada componente, los cuales establecen la cantidad de elementos que conforman al circuito; cabe aclarar que los consecutivos están formados por una letra y un número, no se repiten y están dadas por agrupaciones de elementos, es así que podemos tener rotuladas 9 resistencias de R1 a R9 y tener dos transistores; Q1 y Q2.
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 9.] <em>Plano esquemático de un circuito amplificador de señal</em>
+        p Las claves para realizar lectura de planos esquemáticos radica en identificar la simbología y la nomenclatura empleada en su elaboración, al ser un gráfico representativo de los circuitos electrónicos los recursos empleados para su identificación son muy visuales, por ejemplo, en el plano esquemático de la figura 10 se pueden observar los consecutivos de cada componente, los cuales establecen la cantidad de elementos que conforman al circuito; cabe aclarar que los consecutivos están formados por una letra y un número, no se repiten y están dadas por agrupaciones de elementos, es así que podemos tener rotuladas 9 resistencias de R1 a R9 y tener dos transistores; Q1 y Q2.
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 10.] <em>Plano esquemático de un circuito amplificador de señal</em>
         figure
-          img(src="@/assets/template/tema-2-4.svg", alt="Texto que describa la imagen")
+          img(src="@/assets/template/tema-2-4.svg", alt="La figura 10 contiene la imagen de un plano esquemático de un circuito amplificador de señal.")
     p.mt-4 Otros elementos que se tienen en cuenta para la lectura de planos esquemáticos son los siguientes:
     .row.mt-4
       .col-
@@ -64,7 +64,7 @@
               figure
                 img(src="@/assets/template/tema-2-6.svg", alt="Texto que describa la imagen")
             .col-11
-              p De las hojas de datos o datasheet suministradas por los fabricantes de los componentes electrónicos utilizados en la construcción del esquemático; esto permite la identificación de aquellos elementos electrónicos que no sean reconocidos a partir de su símbolo.
+              p De las hojas de datos o <i>datasheet</i> suministradas por los fabricantes de los componentes electrónicos utilizados en la construcción del esquemático; esto permite la identificación de aquellos elementos electrónicos que no sean reconocidos a partir de su símbolo.
           .row(numero="3" titulo="Identificar")
             .col-1
               figure

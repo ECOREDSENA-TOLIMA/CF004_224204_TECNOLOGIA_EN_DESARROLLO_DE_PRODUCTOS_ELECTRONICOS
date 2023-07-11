@@ -22,7 +22,7 @@
         ImagenInfografica.color-acento-botones.mt-5.intro
           template(v-slot:imagen)
             figure
-              img(src='@/assets/template/tema-1-2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/template/tema-1-2.png', alt='“Componentes electrónicos”. En la imagen de referencia se muestran tanto los terminales o pinesy la manera como se encapsulan los componentes electrónicos.')
               figcaption.mt-3 Referencia Nota. Adaptado de Componentes electrónicos (s.f.)
           .cajon.color-acento-botones(x="50%" y="6%").p-3           
             p.m-0 Terminales o pines de componentes electrónicos  
@@ -43,7 +43,10 @@
       .col-6.col-lg-5
         figure
           img(src="@/assets/template/tema-1-3.png", alt="Texto que describa la imagen")
-    .row.mt-5
+    .row
+      .col-10.offset-1
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 3.] <em>Componentes por su forma física</em>
+    .row.mt-3
       .col-10.offset-1
     .tabla-a.color-acento-contenido.mt-5 
       table
@@ -55,14 +58,14 @@
           tr
             td.p-0.position-relative
               figure
-                img(src="@/assets/template/tema-1-4_o.png", alt="Texto que describa la imagen")
+                img(src="@/assets/template/tema-1-4_o.png", alt="“Componentes de inserción o THT”. Se refleja en la imagen la estructura de un componente de inserción y su respectivo concepto.")
               figure.image-cover
-                img(src="@/assets/template/tema-1-4.svg", alt="Texto que describa la imagen")
+                img(src="@/assets/template/tema-1-4.svg", alt="“Componentes de inserción o THT”. Se refleja en la imagen la estructura de un componente de inserción y su respectivo concepto.")
             td.p-0.position-relative
               figure
-                img(src="@/assets/template/tema-1-5.png", alt="Texto que describa la imagen")
+                img(src="@/assets/template/tema-1-5.png", alt="“Componentes de superficie o SMD”. Se refleja en la imagen la estructura de un componente de superficie y su respectivo concepto.")
               figure.image-cover
-                img(src="@/assets/template/tema-1-4.svg", alt="Texto que describa la imagen")
+                img(src="@/assets/template/tema-1-4.svg", alt="“Componentes de inserción o THT”. Se refleja en la imagen la estructura de un componente de inserción y su respectivo concepto.")
           tr.font-16
             td.p-4 Son todos aquellos componentes cuyos terminales o pines atraviesan físicamente la placa de circuito impreso <strong>(Sustrato o Aislante)</strong> para ser sujetados mecánicamente a través de la soldadura blanda. 
             td.p-4 Son todos aquellos componentes cuyos terminales o pines no atraviesan la placa de circuito impreso, es decir que su sujeción mecánica a través de la soldadura blanda directamente en la superficie de la placa. 
@@ -73,7 +76,7 @@
     p.mt-5 Todos los componentes electrónicos tienen asociado un símbolo o dibujo, lo que permite representar gráficamente a los circuitos; la simbología electrónica cobra vital relevancia cuando de analizar circuitos se trata, esto se debe a que en términos generales, la geometría del dibujo obedece en mayor o gran medida a la función básica del componente. En la siguiente figura se puede observar la simbología de los componentes electrónicos más utilizados en circuitos.
     .row.mt-5
       .col-10.offset-1
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 3.] <em>Simbología electrónica</em>
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 4.] <em>Simbología electrónica</em>
     .row.mt-4
       table.tabla-borde-azul
         thead
@@ -119,7 +122,7 @@
         thead
           tr.text-center
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'pilaB') }">Pila (B)</th>
-            <th class="py-3" :class="{ 'bg-primario': (overFlag == 'bateriaB') }">Bateria (B)</th>
+            <th class="py-3" :class="{ 'bg-primario': (overFlag == 'bateriaB') }">Batería (B)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'resitenciaFija') }">Resistencia fija (R)</th>
         tbody
           tr
@@ -138,7 +141,7 @@
       table.tabla-borde-azul.mt-3
         thead
           tr.text-center
-            <th class="py-3" :class="{ 'bg-primario': (overFlag == 'transNuclHierr') }">Transformador nucleo De hierro (T)</th>
+            <th class="py-3" :class="{ 'bg-primario': (overFlag == 'transNuclHierr') }">Transformador núcleo De hierro (T)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'diodoRect') }">Diodo rectificador (D)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'puenteRect') }">Puente rectificador (BR)</th>
         tbody
@@ -286,7 +289,7 @@
           img(src="@/assets/template/tema-1-7.png", alt="Texto que describa la imagen")
     .row.mt-4
       .col-10.offset-1
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 4.] <em>Encapsulados más empleados</em>
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 5.] <em>Encapsulados más empleados</em>
     .tabla-a.color-acento-contenido.mt-5 
       table
         thead
@@ -297,14 +300,14 @@
           tr
             td.p-0.position-relative 
               figure
-                img(src="@/assets/template/tema-1-8.svg", alt="Texto que describa la imagen")
+                img(src="@/assets/template/tema-1-8.svg", alt="Componentes de inserción o THT”. Se refleja en la imagen la estructura de un componente de inserción y su respectivo concepto.")
               figure.image-cover
-                img(src="@/assets/template/tema-1-49.svg", alt="Texto que describa la imagen")
+                img(src="@/assets/template/tema-1-49.svg", alt="Componentes de inserción o THT”. Se refleja en la imagen la estructura de un componente de inserción y su respectivo concepto.")
             td.p-0.position-relative
               figure
-                img(src="@/assets/template/tema-1-9.svg", alt="Texto que describa la imagen")
+                img(src="@/assets/template/tema-1-9.svg", alt="Componentes de superficie o SMD”. Se refleja en la imagen la estructura de un componente de superficie y su respectivo concepto.")
               figure.image-cover
-                img(src="@/assets/template/tema-1-48.svg", alt="Texto que describa la imagen")
+                img(src="@/assets/template/tema-1-48.svg", alt="Componentes de superficie o SMD”. Se refleja en la imagen la estructura de un componente de superficie y su respectivo concepto.")
           tr.font-16
             td.p-4 En circuitos integrados se suelen utilizar encapsulados con formas rectangulares y disposición de pines simétricos como los DIP o los TSOP.
             td.p-4 Algunos de los encapsulados más empleados en la fabricación de transistores, tiristores y reguladores son el TO-92, TO-220, TO-3, entre otros.
@@ -315,17 +318,17 @@
     p.mt-5 En los procesos de fabricación de componentes y circuitos electrónicos se emplean diferentes materiales, los cuales aportan las características eléctricas y el comportamiento funcional. 
     .row.mt-5
       .col-10.offset-1
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 5.] <em>Materiales</em>
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 6.] <em>Materiales</em>
         ImagenInfografica.color-acento-botones.mt-5.intro
           template(v-slot:imagen)
             figure
               img(src='@/assets/template/tema-1-11.png', alt='Texto que describa la imagen')
           .cajon.color-acento-botones(x="65.5%" y="0%").p-3           
-            p.m-0 En la fabricación de componentes pasivos como las resistencias, condensadores y bobinas se utiliza una combinación de materiales conductores y aislantes. Dentro de los materiales aislantes más usados se encuentran el vidrio, la mica, el aire y los plásticos.
+            p.m-0 b. En la fabricación de componentes pasivos como las resistencias, condensadores y bobinas se utiliza una combinación de materiales conductores y aislantes. Dentro de los materiales aislantes más usados se encuentran el vidrio, la mica, el aire y los plásticos.
           .cajon.color-acento-botones(x="-1.2%" y="22%").p-3             
-            p.m-0 Para la fabricación de conductores eléctricos se suelen emplear metales como el cobre, la plata o el oro, los cuales gracias a su propiedad de conductividad y baja resistividad los hacen buenos materiales para transportar la corriente eléctrica. 
+            p.m-0 a. Para la fabricación de conductores eléctricos se suelen emplear metales como el cobre, la plata o el oro, los cuales gracias a su propiedad de conductividad y baja resistividad los hacen buenos materiales para transportar la corriente eléctrica. 
           .cajon.color-acento-botones(x="60%" y="99.5%").p-3             
-            p.m-0 Por otro lado, el silicio o el germanio son elementos empleados en la construcción de semiconductores; el diodo, los transistores, los tiristores y los circuitos integrados son un claro ejemplo de semiconductores que han permitido la evolución de la electrónica.
+            p.m-0 c. Por otro lado, el silicio o el germanio son elementos empleados en la construcción de semiconductores; el diodo, los transistores, los tiristores y los circuitos integrados son un claro ejemplo de semiconductores que han permitido la evolución de la electrónica.
             .titulo-segundo.mt-5
     .titulo-segundo.mt-5
       #t_1_5.h2 1.5  Placa base
@@ -345,9 +348,9 @@
           img(src="@/assets/template/tema-1-14.png", alt="Texto que describa la imagen")
     .row.mt-5
       .col-10.offset-1
-        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 6.] <em>Hojas de datos del amplificador</em>
+        p.mt-5.p-1(data-aos="fade-up" style="padding-left:13px !important;border-left:4px #B3009D solid;") #[strong Figura 7.] <em>Hojas de datos del amplificador</em>
         figure.mt-4
-          img(src="@/assets/template/tema-1-15.svg", alt="Texto que describa la imagen")
+          img(src="@/assets/template/tema-1-15.svg", alt="La figura 7 contiene una imagen de una hoja de datos del amplificador.")
           figcaption.mt3 Referencia Nota. Texas Instruments. (2015). 
     p.mt-5 Ejemplo de una hoja de datos perteneciente a un amplificador operacional, donde se resaltan algunos de los parámetros eléctricos que destacan al componente. Para consultar las hojas de datos de un componente electrónico solo se requiere conocer el nombre o referencia del componente para así consultarlo directamente en internet.
     .row.mt-4

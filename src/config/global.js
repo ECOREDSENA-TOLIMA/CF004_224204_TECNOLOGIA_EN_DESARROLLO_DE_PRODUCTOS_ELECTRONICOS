@@ -131,21 +131,8 @@ export default {
       referencia:
         'Arboledas Brihuega, D. (2011). Electrónica básica: guía básica. Ediciones de la U.',
       tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=7120',
-    },
-    {
-      tema: 'Planos esquemáticos',
-      referencia:
-        'Ruiz Vázquez, T., y  Arbelaitz Gallego, O. (2004). Análisis Básico de circuitos eléctricos y electrónicos. Pearson Educación.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=4552',
-    },
-    {
-      tema: 'Materiales',
-      referencia:
-        'Carmona Rubio, G. y  Díaz Corcobado, T. (2010). Electrónica aplicada. McGraw-Hill.',
-      tipo: 'Libro',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=4852',
+      link:
+        'https://www.yumpu.com/es/document/view/63271889/electronica-basica-decrypted',
     },
   ],
   glosario: [
@@ -189,17 +176,13 @@ export default {
       referencia:
         'Arboledas Brihuega, D. (2011). Electrónica básica: guía básica. Ediciones de la U.',
       link:
-        'https://www-ebooks7-24-com.bdigital.sena.edu.co/stage.aspx?il=7120&pg=&ed=',
+        'https://www.yumpu.com/es/document/view/63271889/electronica-basica-decrypted',
     },
     {
       referencia:
         'Carmona Rubio, G.,  y Díaz Corcobado, T.(2010). Electrónica aplicada. McGraw-Hill.',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=4852',
-    },
-    {
-      referencia:
-        'Ruiz Vázquez, T.,  y Arbelaitz Gallego, O. (2004). Análisis Básico de circuitos eléctricos y electrónicos. Pearson Educación.',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=4552',
+      link:
+        'https://es.scribd.com/doc/158223478/Electronica-Aplicada-Solucionario-Mcgrawhill',
     },
     {
       referencia:
@@ -227,40 +210,43 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Ángela Rocío Sánchez Ruiz',
-          cargo: 'Experto Temático',
-          centro: 'Centro de Electricidad, Electrónica y Telecomunicaciones',
-        },
-        {
-          nombre: 'Miroslava González H.',
-          cargo: 'Diseñador y Evaluador Instruccional',
-          centro: 'Centro de Gestión Industrial',
-        },
-        {
-          nombre: 'Juan Gilberto Giraldo Cortés',
-          cargo: 'Diseñador Instruccional',
-          centro: '',
-        },
-        {
-          nombre: 'Álix Cecilia Chinchilla Rueda',
-          cargo: 'Evaluadora Instruccional',
-          centro: 'Centro de Gestión Industrial',
-        },
-        {
-          nombre: 'Viviana Esperanza Herrera Quiñones',
-          cargo: 'Asesora Metodológica',
-          centro: 'Centro de Comercio y Servicios',
-        },
-        {
-          nombre: 'Rafael Neftalí Lizcano',
-          cargo: 'Asesor Pedagógico',
+          nombre: 'Jaime Arley Delgado Rincón ',
+          cargo: 'Instructor',
           centro:
-            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
+            'Regional Distrito Capital Centro de Electricidad, Electrónica y Telecomunicaciones.',
         },
         {
-          nombre: 'Darío González',
-          cargo: 'Revisión y Corrección de Estilo',
-          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+          nombre: 'Miroslava González Hernández ',
+          cargo: 'Diseñador y  Evaluador Instruccional ',
+          centro: 'Regional Distrito Capital Centro de Gestión Industrial.',
+        },
+        {
+          nombre: 'Jhon Jairo Rodríguez Pérez ',
+          cargo: 'Diseñador y Evaluador Instruccional',
+          centro:
+            'Regional Distrito Capital Centro para la Industria de la Comunicación Gráfica.',
+        },
+        {
+          nombre: 'Sergio Augusto Ardila Ortiz',
+          cargo: 'Diseñador Instruccional',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Ana Catalina Córdoba Sus ',
+          cargo: 'Revisora Metodológica y Pedagógica ',
+          centro:
+            'Regional Distrito Capital Centro para la Industria de la Comunicación Gráfica.',
+        },
+        {
+          nombre: 'Rafael Neftalí Lizcano Reyes ',
+          cargo: 'Asesor Pedagógico ',
+          centro:
+            'Regional Santander Centro Industrial del Diseño y la Manufactura.',
+        },
+        {
+          nombre: 'Viviana Esperanza Herrera Quiñonez',
+          cargo: 'Asesor Metodológico ',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
@@ -268,29 +254,34 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'José Jaime Luis Tang',
+          nombre: 'José Jaime Luis Tang Pinzón',
           cargo: 'Diseñador Web',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Francisco José Vásquez Suárez',
+          nombre: 'Francisco Javier Vásquez Suárez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
           nombre: 'Gilberto Junior Rodríguez Rodríguez',
           cargo: 'Storyboard e Ilustración',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
           nombre: 'Nelson Iván Vera Briceño',
-          cargo: 'Animador y Producción Audiovisual',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          cargo: 'Producción Audiovisual',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
         {
-          nombre: 'Sebastián Trujillo Afanador',
+          nombre: 'Oleg Litvin',
+          cargo: 'Animador ',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
+        },
+        {
+          nombre: 'Oscar Iván Uribe Ortiz',
           cargo: 'Actividad Didáctica',
-          centro: 'Regional Tolima - Centro de Comercio y Servicios',
+          centro: 'Regional Tolima Centro de Comercio y Servicios',
         },
       ],
     },
