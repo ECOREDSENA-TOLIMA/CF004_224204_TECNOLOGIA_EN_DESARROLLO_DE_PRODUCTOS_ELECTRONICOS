@@ -141,7 +141,7 @@
       table.tabla-borde-azul.mt-3
         thead
           tr.text-center
-            <th class="py-3" :class="{ 'bg-primario': (overFlag == 'transNuclHierr') }">Transformador núcleo De hierro (T)</th>
+            <th class="py-3" :class="{ 'bg-primario': (overFlag == 'transNuclHierr') }">Transformador núcleo de hierro (T)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'diodoRect') }">Diodo rectificador (D)</th>
             <th class="py-3" :class="{ 'bg-primario': (overFlag == 'puenteRect') }">Puente rectificador (BR)</th>
         tbody
@@ -323,11 +323,11 @@
           template(v-slot:imagen)
             figure
               img(src='@/assets/template/tema-1-11.png', alt='Texto que describa la imagen')
-          .cajon.color-acento-botones(x="65.5%" y="0%").p-3           
+          .cajon.color-acento-botones(x="65.5%" y="0%" numero="b").p-3           
             p.m-0 b. En la fabricación de componentes pasivos como las resistencias, condensadores y bobinas se utiliza una combinación de materiales conductores y aislantes. Dentro de los materiales aislantes más usados se encuentran el vidrio, la mica, el aire y los plásticos.
-          .cajon.color-acento-botones(x="-1.2%" y="22%").p-3             
+          .cajon.color-acento-botones(x="-1.2%" y="22%" numero="a").p-3             
             p.m-0 a. Para la fabricación de conductores eléctricos se suelen emplear metales como el cobre, la plata o el oro, los cuales gracias a su propiedad de conductividad y baja resistividad los hacen buenos materiales para transportar la corriente eléctrica. 
-          .cajon.color-acento-botones(x="60%" y="99.5%").p-3             
+          .cajon.color-acento-botones(x="60%" y="99.5%" numero="c").p-3             
             p.m-0 c. Por otro lado, el silicio o el germanio son elementos empleados en la construcción de semiconductores; el diodo, los transistores, los tiristores y los circuitos integrados son un claro ejemplo de semiconductores que han permitido la evolución de la electrónica.
             .titulo-segundo.mt-5
     .titulo-segundo.mt-5
